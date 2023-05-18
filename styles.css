@@ -27,9 +27,8 @@ img {
   justify-content: center;
 	flex-direction:row;
 }
-
-.selected {
-  border: 5px solid rgb(0, 195, 255);
+.img1,.img2,.img3,.img4,.img5 > .selected{
+	background-color:"red";
 }
 
 p {
