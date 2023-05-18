@@ -25,6 +25,7 @@ img {
 .flex {
   display: flex;
   justify-content: center;
+	flex-direction:row;
 }
 
 .selected {
@@ -38,3 +39,15 @@ p {
 button {
   margin: 20px;
 }
+
+.{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+}
+.img{
+	display:flex;
+	flex-direction:row;
+}
+
